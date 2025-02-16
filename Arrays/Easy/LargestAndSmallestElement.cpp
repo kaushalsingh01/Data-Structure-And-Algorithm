@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int arr[100],smallest=INT_MAX, largest=0,arr_size=0;
+    int arr[100],smallest=INT32_MAX, largest=0,arr_size=0;
     cout<<"Enter size of array: ";
     cin>>arr_size;
     cout<<"Enter elements in array:\n";
