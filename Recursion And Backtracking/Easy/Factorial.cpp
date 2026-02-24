@@ -10,6 +10,9 @@ int factorial(int n){
 }
 
 int main(){
-    cout<<factorial(5);
+    int num;
+    cout<<"Enter a number: ";
+    cin>>num;
+    cout<<"Factorial of number is: "<<factorial(num);
     return 0;
 }
